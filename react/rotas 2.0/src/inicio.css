@@ -1,0 +1,221 @@
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh; 
+  margin: 0 240px;
+  padding: 2px;
+}
+
+.editando{
+  border: black 2px solid;
+  width: 500px;
+  height: 500px;
+  font-size: 25px;
+  border-radius: 30px;
+}
+
+
+ .editando form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  align-content: center;
+} 
+
+.Cabecalho{
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+header{
+  text-overflow: clip;
+  text-align: center;
+  background-color: #6F0CC2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  max-height: 80px;
+  padding: 9px 0;
+  
+}
+
+footer{
+  position: relative;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  padding: 9px 0;  
+}
+
+footer li{
+  max-width: 1100px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 0 1%;
+}
+
+
+
+
+main{
+  background-color: white;
+  min-height: 100vh;
+  padding-top: 8vh;
+}
+
+
+.Conteudo-inicio1{
+  padding-top: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Conteudo-inicio2{
+  padding-top: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* .algumaCoisa{
+  background-color: brown;
+  min-width: 200px;
+  width: 10vw;
+  height: 100vh;
+  position: fixed;
+  top:5px;
+  padding:  10%0;
+}
+
+.algumaCoisa ul{
+  text-decoration: none;
+  color: black;
+  text-overflow: clip;
+} */
+
+.menuLateral{
+  background-color: white ;
+  position: fixed;
+}
+
+
+
+.listaMenu a{
+  color: black;
+  text-decoration: none;
+  size: 16px;
+}
+
+.listaMenu li{
+  list-style: none;
+  color: black;
+}
+
+
+.pp{
+display: flex;
+margin-top: 10%;
+margin-left: 30%;
+margin-bottom: 10%;
+}
+
+
+#side{
+  background-color: #6F0CC2 ;
+  height: 100vh;
+  position: fixed;
+  top:5px;
+  padding:0 5px;
+  list-style: none;
+  margin-top: 73px;
+  border: black 2px solid;
+  overflow:hidden
+}
+
+.Cabecalho{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1%;
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+}
+
+header li{
+  display: inline-block;
+  padding: 0 35px;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+  text-shadow: black 3px 3px 3px, black 2px 2px 2px ;
+}
+
+
+html {
+  height: 100%;
+}
+body { min-height: 100vh; }
+
+
+
+.flex-container{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+} 
+
+
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+
+.botoes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 15px;
+  width: 120px;
+}
+
+.item {
+  min-width: 400PX;
+  height: 450px;
+  line-height: 4px ;
+  width: 400px;
+  color:white;
+  display: flex;
+  background-color:#6a1fa0;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  border: solid black 2px;
+  border-radius: 20px;
+  padding: 4px;
+  margin: 10px;
+  text-shadow: black 3px 3px 3px, black 2px 2px 2px ;
+}
+
+.item img{
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.main{
+  justify-content: center;
+}
