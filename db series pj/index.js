@@ -1,11 +1,15 @@
 const express = require('express');
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/series', {useNewUrlParser: true, useUnifiedTopology: true,});
-const port = 3004;
+const port = 3006;
 const Serie = require('./models/series')
+const cors = require('cors')
+
+
 
 const app = express();
 app.use(express.json());
+app.use(cors())
 
 app.get('/', (req, res)=> {
     res.send('Olá usuário! aqui é o inicio do projeto de series')
